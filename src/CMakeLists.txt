@@ -1,0 +1,8 @@
+
+
+ADD_EXECUTABLE(hello_glut hello_glut.cc)
+
+TARGET_LINK_LIBRARIES(hello_glut ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES})
+
+SET_TARGET_PROPERTIES(hello_glut PROPERTIES OUTPUT_NAME "hello_glut")
+
